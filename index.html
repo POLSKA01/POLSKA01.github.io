@@ -6,6 +6,38 @@
   <head>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
       <link rel="stylesheet" href="styles.css" />
+<style>
+body {
+    background-color: lightblue;
+    img, video, object
+}
+#my-div
+{
+    width    : 1000px;
+    height   : 950px;
+    overflow : hidden;
+    position : relative;
+}
+
+#my-iframe
+{
+    position : absolute;
+    top      : -50px;
+    left     : -50px;
+    width    : 1280px;
+    height   : 1600px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+</style>
 
 </HEAD>
 <BODY>
@@ -64,6 +96,13 @@ W sytuacji jak masz niepotrzebne jednostki najpierw pytamy czy ktoś je weźmie,
   <H3>Wszystko</H3>
   <P>            W razie jakichś wątpliwości piszemy o tym na czacie i pytamy. 
   Nikt nie gryzie i nikt nie da zjebki za pytania. To chyba tyle :)           </P></LI>
+  
+  </LI>
+  <LI>
+  <H3>Członkowie</H3>
+  <div id="my-div">
+<iframe src="http://ksod.us/squad/bd6b77c9-515b-11e7-8140-06d6be004f86/members?sort=xp&order=desc" id="my-iframe" scrolling="no"></iframe>
+</div>
   
   </LI></OL>
 </BODY>
